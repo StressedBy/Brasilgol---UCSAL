@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    real anos, meses, dias, soma_dias,anosd, mesest, mesesd
+    escreva("Olá, eu sou o seu amiguinho o Computalonga!\n Quero saber quantos anos, meses e dias você já viveu!\n Eu queria te lembrar que sou uma máquina e a minha existência, diferente da sua, é eterna enquanto houver rede\nVamos todos morrer!\n")
+    escreva("Digite aqui a sua idade em anos: ")
+    leia(anos)
+    escreva("\nDigite aqui a sua idade em meses: ")
+    leia(meses)
+    escreva("\nDigite aqui a sua idade em dias: ")
+    leia(dias)
+    anosd =  anos * 12
+    mesest = anosd + meses
+    mesesd = mesest * 30
+    soma_dias = mesesd + dias
+    escreva("Você tem: ",soma_dias," dias de vida!")
+  }
+}
