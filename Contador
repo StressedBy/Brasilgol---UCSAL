@@ -1,0 +1,12 @@
+programa {
+  funcao inicio() {
+    inteiro contador, numero
+    contador = 1
+    escreva("Escreva qualquer número inteiro")
+    leia(numero)
+    enquanto(contador <= numero){
+      escreva(contador,"\n")
+      contador++
+    }
+  }
+}
