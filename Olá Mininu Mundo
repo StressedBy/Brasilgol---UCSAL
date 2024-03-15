@@ -1,0 +1,9 @@
+programa {
+  funcao inicio() {
+    cadeia nome
+    escreva("Olá, eu sou o Computalonga. Qual o seu nome?\n")
+    escreva("Eu sou, ",nome)
+    leia(nome)
+    escreva("É um prazer, ",nome,"!\n")
+  }
+}
